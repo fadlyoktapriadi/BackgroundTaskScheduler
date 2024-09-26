@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener  {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
-        binding?.btnPerm    ission?.setOnClickListener(this)
+        binding?.btnPermission?.setOnClickListener(this)
 
     }
 
